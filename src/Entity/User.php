@@ -14,6 +14,6 @@ class User {
     }
 
     public function talk() {
-        return "Hello world!";
+        return "Hello my name is ".$this->getName();
     }
 }
